@@ -19,10 +19,12 @@ header ul
 .fl
 {
   float: left;
+  margin-left: 100px;
 }
 .fr
 {
   float: right;
+  margin-right: 200px;
 }
 .photo img{
   width: 260px;
@@ -56,7 +58,6 @@ header ul
 }
 .section
 {
-  padding: 1% 0 0 0;
   margin:0 auto;
   width: 1119px;
   margin-top:0;
@@ -65,7 +66,6 @@ header ul
 .textbox
 {
   width: 400px;
-  text-align: left;
 }
 .photobox
 {
@@ -73,9 +73,9 @@ header ul
 }
 .page
 {
-  width: 730px;
-  margin-left: 195px;
-  margin-top: 73px;
+  overflow: hidden;
+  height: 330px;
+  padding-top: 100px;
 }
 .databox
 {
@@ -303,4 +303,13 @@ section.mission
 .tutors
 {
   color:#6f98c2;
+}
+
+.abc.section
+{
+  background-color: #a2f7f1;
+}
+.bcd.section
+{
+  background-color: #fbb7f1;
 }
