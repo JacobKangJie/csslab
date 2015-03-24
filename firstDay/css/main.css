@@ -19,7 +19,7 @@ header ul
 .fl
 {
   float: left;
-  margin-left: 100px;
+  margin-left: 200px;
 }
 .fr
 {
@@ -232,6 +232,10 @@ section.mission
 {
   background-color: #5c7ea3;
 }
+.progress.page
+{
+  padding-top: 100px;
+}
 .progress.section
 {
   height: 570px;
@@ -287,10 +291,6 @@ section.mission
 {
   font-family: Papyrus;
   font-size: 15px;
-}
-.progresspage
-{
-  margin-top: 90px;
 }
 .hours
 {
